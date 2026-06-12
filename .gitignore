@@ -1,0 +1,39 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+venv_linux/
+*.egg-info/
+dist/
+build/
+
+# Broken pip install artifacts
+=*
+
+# Flutter / Dart
+Flutter/build/
+Flutter/.dart_tool/
+Flutter/.flutter-plugins
+Flutter/.flutter-plugins-dependencies
+*.iml
+Flutter/android/.gradle/
+Flutter/android/local.properties
+Flutter/android/key.properties
+Flutter/ios/Pods/
+Flutter/ios/.symlinks/
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
